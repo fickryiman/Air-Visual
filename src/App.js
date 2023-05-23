@@ -1,10 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+import StartingPoint from './components/StartingPoint';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      CAPSTONE Project React Redux
-    </div>
+    <BrowserRouter>
+      <StartingPoint />
+    </BrowserRouter>
   );
 }
 
