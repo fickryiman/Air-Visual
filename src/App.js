@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
 import Homepage from './components/pages/Homepage';
 import AboutMe from './components/pages/AboutMe';
 import References from './components/pages/References';
@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+      <Navbar />
       <div className="pages">
         <Routes>
           <Route index element={<Homepage />} />

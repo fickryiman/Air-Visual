@@ -146,7 +146,7 @@
   .mobile-icons {
     display: flex;
     gap: 15%;
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: -70%;
   }
 

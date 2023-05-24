@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 import Signal from '../assets/signal-svgrepo-com.svg';
 import Mic from '../assets/mic-svgrepo-com.svg';
 import Search from '../assets/search-svgrepo-com.svg';
-import './NavBar.css';
+import './Navbar.css';
 
-const NavBar = () => {
+const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -67,4 +67,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
