@@ -5,7 +5,7 @@ import Mic from '../assets/mic-svgrepo-com.svg';
 import Search from '../assets/search-svgrepo-com.svg';
 import './Navbar.css';
 
-const Navbar = () => {
+const NavBar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -67,4 +67,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
